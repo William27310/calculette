@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -12,12 +7,50 @@ body {
 
 .Calculette {
     border: 2px solid black;
-    padding: 2rem;
     background-color: cadetblue;
 }
 
-.haut {
-    border: 2px solid red;
+.interface {
+    width: 15vw;
+    height: 15vh;
+}
+
+.ensemble {
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    margin: 1rem;
+    color: white;
+}
+
+p{
+    margin: 1rem;
+    margin-top: 1.5rem;
+    width: 3.5rem;
+    color: white;
+}
+
+.rectangle {
+    border: 2px solid black;
+    height: 3vh;
+    width: 6vw;
+    margin: 1rem;
+    margin-left: -0.3rem;
+    background-color: black;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+}
+
+.second_partie {
+    margin: 1.5rem;
 }
 
 .grid {
