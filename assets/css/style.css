@@ -5,6 +5,8 @@ body {
     height: 100vh;
 }
 
+/* <!-- Première partie --> */
+
 .Calculette {
     border: 2px solid black;
     background-color: cadetblue;
@@ -49,7 +51,12 @@ form {
     height: 6vh;
 }
 
-.second_partie {
+/* <!-- Première partie --> */
+
+/* <!-- Seconde partie --> */
+
+
+.boutons {
     margin: 1.5rem;
 }
 
@@ -73,3 +80,5 @@ button  {
     grid-template-rows: repeat(5, 30px);
     margin-top: 0.5rem;
 }
+
+/* <!-- Seconde partie --> */
