@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -11,82 +5,84 @@ body {
     height: 100vh;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgb(63, 146, 197);
-    width: 17.5%;
+/* <!-- Première partie --> */
+
+.Calculette {
+    border: 2px solid black;
+    background-color: cadetblue;
 }
 
-.haut {
-    border: 2px solid black;
-    border-radius: 6px;
+.interface {
+    width: 15vw;
+    height: 15vh;
+}
+
+.ensemble {
     display: flex;
-    justify-content: center;
+    text-align: center;
+}
+
+input {
+    border-radius: 6px;
 }
 
 h1 {
-    border: 2px solid black;
-    background-color: rgb(101, 133, 53);
-    text-align: center;
-    border-radius: 6px;
-}
-
-.bas {
-    border: 2px solid black;
-    border-radius: 6px;
-    text-align: center;
-    padding: 2rem;
-}
-
-.mini {
-    display: grid;
-    grid-template-columns: repeat(5, 40px);
-    grid-gap: 1rem;
-    text-align: center;
-}   
-
-.button1 {
-    border: 2px solid black;
-    background-color: rgb(28, 133, 133);
-    border-radius: 6px;
+    margin: 1rem;
     color: white;
 }
 
-.principal {
+p{
+    margin: 1rem;
+    margin-top: 1.5rem;
+    width: 3.5rem;
+    color: white;
+}
+
+.rectangle {
+    border: 2px solid black;
+    height: 3vh;
+    width: 6vw;
+    margin: 1rem;
+    margin-left: -0.3rem;
+    background-color: black;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+}
+
+/* <!-- Première partie --> */
+
+/* <!-- Seconde partie --> */
+
+
+.boutons {
+    margin: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 40px);
     margin-top: 1rem;
+}
+
+button  {
+    background-color: rgb(10, 69, 136);
+    color: white;
+    border-radius: 6px;
+}
+
+.grid2 {
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: repeat(5, 40px);
-    grid-gap: 1rem;
-    grid-template-rows: repeat(5, 25px);
+    grid-template-rows: repeat(5, 30px);
+    margin-top: 0.5rem;
 }
 
-.button2 {
-    border: 2px solid black;
-    border-radius: 6px;
-    text-align: center;
-    padding: 4px;
-    background-color: rgb(54, 51, 51);
-    color: white;
-}
-
-.button3 {
-    border: 2px solid black;
-    border-radius: 6px;
-    text-align: center;
-    padding: 4px;
-    background-color: rgb(207, 207, 70);
-    color: white;
-}
-
-.button4 {
-    text-align: center;
-    padding-top: 23px;
-    background-color: rgb(54, 51, 51);
-    color: white;
-    border-radius: 6px;
-    border: 2px solid black;
-    display: grid;
-    grid-template-rows: repeat(1, 42px);
-}
+/* <!-- Seconde partie --> */
